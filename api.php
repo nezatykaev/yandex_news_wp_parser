@@ -8,7 +8,7 @@ $database = "p729516_1";
 $post_title = $_POST["post_title"];
 $post_content = $_POST["post_content"];
 $url = $_POST["post_url"];
-$post_source = $_POST["post_source"];
+$post_source = $_POST["news_source"];
 
 $conn = new mysqli("$servername", "$username", "$password", "$database");
     if($conn->connect_error){
